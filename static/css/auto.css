@@ -1,0 +1,314 @@
+ul, ol, p {
+  margin: 0;
+  padding: 0;
+}
+
+.article-item .item-main {
+  overflow: hidden;
+}
+
+.article-bg{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: -ms-linear-gradient(rgba(255,255,255,0.1) 39% , rgba(255,255,255,0.9) 77% , #fff);        /* IE 10 */
+
+  background:-moz-linear-gradient(rgba(255,255,255,0.1) 39% , rgba(255,255,255,0.9) 77% , #fff);/*火狐*/
+
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255,255,255,0)), to(rgba(255,255,255,1)));
+
+  background: -webkit-linear-gradient(top ,rgba(255,255,255,0), rgba(255,255,255,1));   /*Safari5.1 Chrome 10+*/
+
+  background: -o-linear-gradient(top, #fff, #0000ff);  /*Opera 11.10+*/
+
+}
+
+
+
+@media (max-width: 992px) {
+  .seller-wrap {
+    display: none;
+  }
+  #app .add-artbtn{
+    display: block;
+  }
+
+  .content-wrap, .menu-wrapper .menu {
+    width: 100%;
+  }
+
+  .main-inner {
+    width: 100%;
+  }
+
+  /*.user-status {*/
+  /*display: none;*/
+  /*}*/
+  .menu-left, .content-wrap {
+    margin: 0;
+    padding: 0;
+  }
+
+  #login-register-box {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #app .content .article-item {
+    padding: 25px;
+  }
+
+  #app .item-tag {
+    display: none;
+    top: 25px;
+  }
+
+  #app #login-body #login-register-box {
+    margin-top: 50px;
+  }
+
+  #app .item-date {
+    width: 150px;
+    border-radius: 0px 0px 20px 0px;
+    overflow: hidden;
+    font-size: 24px;
+    top: -16px;
+    border-top: 5px solid #666;
+    padding-left: 39px;
+    height: 46px;
+  }
+
+  #app .item-date > div {
+    float: left;
+    font-size: 24px;
+  }
+
+  .master {
+    display: none;
+  }
+
+  #app .banner-inner {
+    height: 400px;
+  }
+}
+
+@media (max-width: 765px) {
+  #add-article-page .container {
+    padding: 15px;
+    border-radius: 0;
+  }
+
+  #add-article-page .push {
+    height: 150px;
+    margin-bottom: 0;
+  }
+
+  #add-article-page .push h1 {
+    line-height: 150px;
+  }
+
+  #add-article-page .tag {
+    flex-wrap: wrap;
+  }
+
+  #app .banner-inner {
+    height: 300px;
+  }
+
+  #app .brand-wrapper {
+    height: 450px;
+  }
+
+  #login-register-box {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+  }
+
+  #app .content .article-item {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  #app #header .menu-wrapper .menu .menu-mo {
+    display: none;
+  }
+
+  #app #comment, #app #article-container .content {
+    padding: 20px;
+  }
+
+  #app {
+    padding: 0;
+  }
+
+  #app #login-body {
+    background: url(../images/banner-3.jpg) no-repeat center/auto 100%;
+  }
+
+  #app #login-body #login-register-box {
+    background: rgba(7, 17, 27, 0.7);
+    height: 100%;
+    margin: 0;
+  }
+
+  .item-date, #app .item-tag, .master {
+    display: none;
+  }
+
+  .tem-usermsg .user-head {
+    padding: 0;
+  }
+
+  #app #article-container .post .content .item-header .like-collect .iconfont {
+    font-size: 20px;
+  }
+
+  #app #article-container .post .content .item-header .like-collect {
+    bottom: 10px;
+    width: 100%;
+    justify-content: center;
+    right: 0;
+  }
+
+  #app #article-container .post .content .item-header .title {
+    font-size: 18px;
+  }
+
+  #article-container .post .content .item-header .date {
+    margin: 5px 10px 0 0;
+  }
+
+  #article-container .author {
+    width: 100%;
+    /* left: 0; */
+    position: absolute;
+    height: 28px;
+    line-height: 28px;
+    bottom: 30px;
+    text-align: center;
+    right: 0;
+    float: right;
+  }
+
+  #app #article-container .post .content .item-body {
+    margin: 0;
+    padding-bottom: 100px;
+  }
+
+  #app #article-container {
+    padding: 0;
+  }
+
+  #app #article-container .item-msgbrand .user-msglist .msg-footer {
+    right: 0;
+    bottom: 0;
+  }
+
+  #app #header .user-status {
+    display: block;
+    position: static;
+    right: 0;
+    padding: 0;
+    /* right: 10px; */
+    /* bottom: 0; */
+    width: 100%;
+    height: auto;
+  }
+
+  #app #header .user-status > div {
+    float: none;
+    margin: 0;
+    /*line-height: 0;*/
+  }
+
+  #app .status-btn {
+    display: block;
+
+  }
+
+  #app #header .status-btn a {
+    margin: 0;
+    height: 38px;
+    line-height: 30px;
+    background: #337ab7e0;
+  }
+
+  #app #header .menu-item {
+    width: 100%;
+    padding: 0;
+  }
+
+  #app #header .menu {
+    display: block;
+  }
+
+  #app #header .toggle-menu {
+    display: block;
+  }
+
+  #app #header .menu-right {
+    position: absolute;
+    top: 0;
+    height: 38px;
+  }
+
+  #app #login-body .container .login-text {
+    position: static;
+    left: 0;
+  }
+
+  #link_page .container .link-list .link-main {
+    margin: 3px 0;
+    box-shadow: none;
+  }
+
+  #link_page .container .link-list {
+    margin: 10px auto;
+  }
+
+  #link_page .ding {
+    display: none;
+  }
+
+  /*个人页*/
+  #person_page .user-info-right {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  #person_page .user-related {
+    display: flex;
+    align-content: center;
+    color: #333;
+    justify-content: center;
+  }
+  #person_page .user-pic .img{
+    width: 100px;
+    height: 100px;
+  }
+  #person_page .user-sketch{
+    display: none;
+  }
+  #person_page .user-body{
+    padding: 0;
+    width: 100%;
+  }
+  #person_page .user-menu{
+    display: flex;
+    width: 100%;
+  }
+  #person_page .user-info-right .user-name{
+    margin-top: 70px;
+  }
+  #person_page .user-menu{
+    display: none;
+  }
+}
+
+/*@media (max-width: )*/

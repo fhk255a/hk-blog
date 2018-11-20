@@ -1,0 +1,17 @@
+p
+  font-size: 15px
+  line-height: 21px
+  margin: 0 0 12px
+  word-wrap: break-word
+  text-align: left
+
+.clearfix
+  display:inline-block
+  &::after
+    content:'.'
+    height:0
+    line-height:0
+    clear:both
+    visibility:hidden
+    display:block
+//利用媒体查询，根据不同的物理像素比，对这个一像素边框进行缩放//

@@ -1,0 +1,66 @@
+.login-register-box{
+  position: absolute;
+  right: 200px;
+  top: 200px;
+  width: 400px;
+  overflow: hidden;
+  height: 600px;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 20px 5px rgba(255,255,255,0.5);
+  background: rgba(7,17,27,0.2);
+}
+.regsiter-box,.login-box{
+  padding: 10%;
+  height: 87%;
+  margin:0 auto;
+}
+.login-box .title,.regsiter-box .title {
+  color:rgba(255,255,255,0.8);
+  margin-bottom: 50px;
+}
+.item{
+  width: 100%;
+  color:rgba(255,255,255,0.8);
+  font-size:20px;
+  margin:10px 0;
+  padding: 10px 0;
+  border-bottom:1px solid rgba(255,255,255,0.5);
+}
+.item .iconfont{
+  font-size:20px;
+}
+.item input{
+  background: transparent;
+  border:0;
+  font-size: 16px;
+  text-indent: 0.5em;
+  color:rgba(255,255,255,0.8);
+  width: 80%;
+}
+.item input::-webkit-input-placeholder {
+    /* placeholder颜色  */
+       color:rgba(255,255,255,0.8);
+     /* placeholder字体大小  */
+       font-size: 16px;
+     /* placeholder位置  */
+       text-align: left;
+      text-indent: 0.5em;
+ }
+.item-btn{
+  text-align: center;
+  border:1px solid  rgba(255,255,255,0.5);
+  -webkit-border-radius: 30px;
+  background: #84848461;
+  margin-top:50px;
+  box-shadow: -1px -1px 5px 1px rgba(255,255,255,0.2);
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.item-btn input{
+  font-size:16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
