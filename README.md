@@ -1,6 +1,6 @@
-# e_life
+# hk-blog
 
-> 易生活2.0版本
+> HK轻论坛
 
 ## Build Setup
 
@@ -8,10 +8,10 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8080 本地运行
 npm run dev
 
-# build for production with minification
+# build for production with minification 打包
 npm run build
 
 # build for production and view the bundle analyzer report
